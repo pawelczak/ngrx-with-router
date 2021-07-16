@@ -33,6 +33,9 @@
     "ngrx-with-router-e2e": {
       "tags": [],
       "implicitDependencies": ["ngrx-with-router"]
+    },
+    "products": {
+      "tags": []
     }
   }
 }

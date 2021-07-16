@@ -1,5 +1,5 @@
 module.exports = {
-	displayName: 'ngrx-with-router',
+	displayName: 'products',
 	preset: '../../jest.preset.js',
 	setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
 	globals: {
@@ -8,7 +8,7 @@ module.exports = {
 			stringifyContentPathRegex: '\\.(html|svg)$'
 		}
 	},
-	coverageDirectory: '../../coverage/apps/ngrx-with-router',
+	coverageDirectory: '../../coverage/libs/products',
 	transform: {
 		'^.+\\.(ts|js|html)$': 'jest-preset-angular'
 	},
